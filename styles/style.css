@@ -1,4 +1,3 @@
-
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -45,13 +44,7 @@ section {
     border: solid 2px var(--color1);
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    height: var(--header-height);
-    box-shadow: var(--shadow);
-}
+
 
 footer {
     display: flex;
@@ -62,8 +55,9 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
+    font: monospace;
 }
 
 .gutter-right {
@@ -111,3 +105,33 @@ footer {
     }
 
   }
+
+
+  .math-buttons > button {
+   
+    margin-top:20px;
+    align-items:center;
+    transition-duration: 0.4s;
+    justify-content: center;
+    border-radius:8px;
+    height: 35px;
+    width: 75px;
+    font-family:monospace;
+
+  }
+    
+    .math-buttons:hover > button  {
+
+        background-color: #003cff;
+        color: white;
+      
+
+    }
+    
+    
+    padding: 5px;
+  }
+
+
+
+  
